@@ -12,14 +12,22 @@ This file is the starter code and must be run in order to parse the data that ha
 
 3. executeMLP: Needs to be run after trainMLP.py and when prompted on the console please enter 5. This takes quite some time to run. Kindly, be patient! On the console displays a confusion matrix that works as a rubric to determine whether learning is being performed and how much accuracy it has achieved.
 
+4. The Data Set: Mint Financial Transaction Data
 
-Order in which files need to be run is 1 , 2 , and then 3.
+
+********Order in which files need to be run is 1 , 2 , and then 3**********
 
 The accuracy keeps increasing as the number of epochs keep increasing.
 
+***************************Required*****************************************
 
+Python: Pycharm / Anaconda IDE
+Packages Needed: sklearn, matplotlib, numpy, csv, math, random, numpy+mkl
+****************************************************************************
 
-Note: I have only tested this on the Windows OS. 
+Note: The trainMLP.py generates a weights file which will be used by the executeMLP.py so the order in which it is run is important.
+
+I have only tested this on the Windows OS.
 
 Kindly, ignore some extra code such as other classifiers, imports etc. that I could not finish for extra checks and functionality :)
 
