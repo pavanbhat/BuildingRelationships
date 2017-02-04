@@ -1,0 +1,26 @@
+Intuit Challenge - Building Relationships 
+Rochester Institute of Technology
+(Submitted By: Pavan Prabhakar Bhat - pxb8715@rit.edu)
+----------------------------------------------------------------------------------
+
+Files in this directory:
+
+1. clean_and_prep.py:  
+This file is the starter code and must be run in order to parse the data that has been distributed into multiple .csv files. This file contains a main method, and therefore needs to run on its own. It has to be placed in the folder where the input .csv files (user-0.csv etc.) are placed. 
+
+2. trainMLP: Needs to be run after clean_and_prep.py and when prompted on the console please enter 5. It also requires you to keep closing the figure() window which pops up with a graph. (Will mostly pop up twice after you enter 5 in the console). This takes quite some time to run. Kindly, be patient!
+
+3. executeMLP: Needs to be run after trainMLP.py and when prompted on the console please enter 5. This takes quite some time to run. Kindly, be patient! On the console displays a confusion matrix that works as a rubric to determine whether learning is being performed and how much accuracy it has achieved.
+
+
+Order in which files need to be run is 1 , 2 , and then 3.
+
+The accuracy keeps increasing as the number of epochs keep increasing.
+
+
+
+Note: I have only tested this on the Windows OS. 
+
+Kindly, ignore some extra code such as other classifiers, imports etc. that I could not finish for extra checks and functionality :)
+
+Acknowledgements: Prof. Richard Zanibbi for teaching the NN algorithm to me!
